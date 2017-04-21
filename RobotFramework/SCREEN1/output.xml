@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170406 15:18:43.725" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="C:\Users\rchoks200\PycharmProjects\RobotFramework\SCREEN1\data_driven.robot" id="s1" name="Data Driven">
+<test id="s1-t1" name="Addition">
+<kw name="Calculate">
+<arguments>
+<arg>12 + 2 + 2</arg>
+<arg>16</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.866" starttime="20170406 15:18:43.866"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.866" starttime="20170406 15:18:43.866"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.866" starttime="20170406 15:18:43.866"></status>
+</kw>
+<kw name="Calculate">
+<arguments>
+<arg>2 + -3</arg>
+<arg>-1</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.866" starttime="20170406 15:18:43.866"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.866" starttime="20170406 15:18:43.866"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.866" starttime="20170406 15:18:43.866"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.866" critical="yes" starttime="20170406 15:18:43.866"></status>
+</test>
+<test id="s1-t2" name="Subtraction">
+<kw name="Calculate">
+<arguments>
+<arg>12 - 2 - 2</arg>
+<arg>8</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Calculate">
+<arguments>
+<arg>2 - -3</arg>
+<arg>5</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" critical="yes" starttime="20170406 15:18:43.882"></status>
+</test>
+<test id="s1-t3" name="Multiplication">
+<kw name="Calculate">
+<arguments>
+<arg>12 * 2 * 2</arg>
+<arg>48</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Calculate">
+<arguments>
+<arg>2 * -3</arg>
+<arg>-6</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" critical="yes" starttime="20170406 15:18:43.882"></status>
+</test>
+<test id="s1-t4" name="Division">
+<kw name="Calculate">
+<arguments>
+<arg>12 / 2 / 2</arg>
+<arg>3</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Calculate">
+<arguments>
+<arg>2 / -3</arg>
+<arg>-1</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" critical="yes" starttime="20170406 15:18:43.882"></status>
+</test>
+<test id="s1-t5" name="Failing">
+<kw name="Calculate">
+<arguments>
+<arg>1 + 1</arg>
+<arg>2</arg>
+</arguments>
+<kw name="Push Buttons" library="CalculatorLibrary">
+<doc>Pushes the specified ``buttons``.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<kw name="Result Should Be" library="CalculatorLibrary">
+<doc>Verifies that the current result is ``expected``.</doc>
+<arguments>
+<arg>${expected}</arg>
+</arguments>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" starttime="20170406 15:18:43.882"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.882" critical="yes" starttime="20170406 15:18:43.882"></status>
+</test>
+<test id="s1-t6" name="Calculation error">
+<kw name="Calculation should fail">
+<arguments>
+<arg>kekkonen</arg>
+<arg>Invalid button 'k'.</arg>
+</arguments>
+<kw name="Should Cause Error" library="CalculatorLibrary">
+<doc>Verifies that calculating the given ``expression`` causes an error.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<assign>
+<var>${error}</var>
+</assign>
+<msg timestamp="20170406 15:18:43.897" level="INFO">${error} = Invalid button 'k'.</msg>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${expected}</arg>
+<arg>${error}</arg>
+</arguments>
+<msg timestamp="20170406 15:18:43.897" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<kw name="Calculation should fail">
+<arguments>
+<arg>${EMPTY}</arg>
+<arg>Invalid expression.</arg>
+</arguments>
+<kw name="Should Cause Error" library="CalculatorLibrary">
+<doc>Verifies that calculating the given ``expression`` causes an error.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<assign>
+<var>${error}</var>
+</assign>
+<msg timestamp="20170406 15:18:43.897" level="INFO">${error} = Invalid expression.</msg>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${expected}</arg>
+<arg>${error}</arg>
+</arguments>
+<msg timestamp="20170406 15:18:43.897" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<kw name="Calculation should fail">
+<arguments>
+<arg>1 / 0</arg>
+<arg>Division by zero.</arg>
+</arguments>
+<kw name="Should Cause Error" library="CalculatorLibrary">
+<doc>Verifies that calculating the given ``expression`` causes an error.</doc>
+<arguments>
+<arg>C${expression}=</arg>
+</arguments>
+<assign>
+<var>${error}</var>
+</assign>
+<msg timestamp="20170406 15:18:43.897" level="INFO">${error} = Division by zero.</msg>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${expected}</arg>
+<arg>${error}</arg>
+</arguments>
+<msg timestamp="20170406 15:18:43.897" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'str'&gt;</msg>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.897"></status>
+</kw>
+<status status="PASS" endtime="20170406 15:18:43.897" critical="yes" starttime="20170406 15:18:43.882"></status>
+</test>
+<doc>Suite description</doc>
+<status status="PASS" endtime="20170406 15:18:43.897" starttime="20170406 15:18:43.725"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="6">Critical Tests</stat>
+<stat fail="0" pass="6">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Data Driven" pass="6">Data Driven</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

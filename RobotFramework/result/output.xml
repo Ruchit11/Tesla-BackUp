@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170403 18:53:54.887" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="C:\Users\rchoks200\PycharmProjects\RobotFramework\third.robot" id="s1" name="Third">
+<test id="s1-t1" name="Example">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://bbcnews.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170403 18:53:55.231" level="INFO">Opening browser 'chrome' to base url 'http://bbcnews.com'</msg>
+<status status="PASS" endtime="20170403 18:54:06.360" starttime="20170403 18:53:55.231"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://bbcnews.com</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20170403 18:54:06.360" level="INFO">Opening browser 'ff' to base url 'http://bbcnews.com'</msg>
+<status status="PASS" endtime="20170403 18:54:16.851" starttime="20170403 18:54:06.360"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170403 18:54:17.091" starttime="20170403 18:54:16.852"></status>
+</kw>
+<status status="PASS" endtime="20170403 18:54:17.091" critical="yes" starttime="20170403 18:53:55.231"></status>
+</test>
+<kw type="teardown" name="Close All Browsers" library="Selenium2Library">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20170403 18:54:20.285" starttime="20170403 18:54:17.095"></status>
+</kw>
+<status status="PASS" endtime="20170403 18:54:20.285" starttime="20170403 18:53:54.903"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Third" pass="1">Third</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

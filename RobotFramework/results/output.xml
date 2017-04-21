@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170403 16:31:40.776" generator="Robot 3.0.2 (Python 2.7.13 on win32)">
+<suite source="C:\Users\rchoks200\PycharmProjects\RobotFramework\test.robot" id="s1" name="Test">
+<test id="s1-t1" name="Simple Test">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>http://teslaqa2.spa.comcast.net</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20170403 16:31:40.947" level="INFO">Opening browser 'chrome' to base url 'http://teslaqa2.spa.comcast.net'</msg>
+<status status="PASS" endtime="20170403 16:31:45.695" starttime="20170403 16:31:40.947"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170403 16:31:46.893" starttime="20170403 16:31:45.695"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<assign>
+<var>${file2}</var>
+</assign>
+<msg timestamp="20170403 16:31:47.537" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20170403 16:31:47.537" level="INFO">${file2} = C:\Users\rchoks200\PycharmProjects\RobotFramework\results\selenium-screenshot-1.png</msg>
+<status status="PASS" endtime="20170403 16:31:47.537" starttime="20170403 16:31:46.893"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>username</arg>
+<arg>qacode_t2_2</arg>
+</arguments>
+<msg timestamp="20170403 16:31:47.537" level="INFO">Typing text 'qacode_t2_2' into text field 'username'</msg>
+<status status="PASS" endtime="20170403 16:31:47.674" starttime="20170403 16:31:47.537"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>password</arg>
+<arg>test</arg>
+</arguments>
+<msg timestamp="20170403 16:31:47.675" level="INFO">Typing text 'test' into text field 'password'</msg>
+<status status="PASS" endtime="20170403 16:31:47.764" starttime="20170403 16:31:47.675"></status>
+</kw>
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>Login</arg>
+</arguments>
+<msg timestamp="20170403 16:31:47.765" level="INFO">Clicking button 'Login'.</msg>
+<status status="PASS" endtime="20170403 16:31:49.031" starttime="20170403 16:31:47.765"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>id=omni-search</arg>
+</arguments>
+<msg timestamp="20170403 16:31:49.032" level="INFO">Clicking element 'id=omni-search'.</msg>
+<status status="PASS" endtime="20170403 16:31:49.134" starttime="20170403 16:31:49.032"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that a specific table row contains `expected`.</doc>
+<arguments>
+<arg>omni-search-helpers</arg>
+<arg>1</arg>
+<arg>Account Number</arg>
+</arguments>
+<status status="PASS" endtime="20170403 16:31:49.186" starttime="20170403 16:31:49.134"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that a specific table row contains `expected`.</doc>
+<arguments>
+<arg>omni-search-helpers</arg>
+<arg>2</arg>
+<arg>ZIP Code</arg>
+</arguments>
+<status status="PASS" endtime="20170403 16:31:49.243" starttime="20170403 16:31:49.187"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that a specific table row contains `expected`.</doc>
+<arguments>
+<arg>omni-search-helpers</arg>
+<arg>3</arg>
+<arg>Dropped Call</arg>
+</arguments>
+<status status="PASS" endtime="20170403 16:31:49.290" starttime="20170403 16:31:49.244"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that a specific table row contains `expected`.</doc>
+<arguments>
+<arg>omni-search-helpers</arg>
+<arg>4</arg>
+<arg>fn:: ln::</arg>
+</arguments>
+<status status="PASS" endtime="20170403 16:31:49.339" starttime="20170403 16:31:49.291"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that a specific table row contains `expected`.</doc>
+<arguments>
+<arg>omni-search-helpers</arg>
+<arg>5</arg>
+<arg>ih::</arg>
+</arguments>
+<status status="PASS" endtime="20170403 16:31:49.386" starttime="20170403 16:31:49.340"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that a specific table row contains `expected`.</doc>
+<arguments>
+<arg>omni-search-helpers</arg>
+<arg>6</arg>
+<arg>MAC Address</arg>
+</arguments>
+<status status="PASS" endtime="20170403 16:31:49.432" starttime="20170403 16:31:49.387"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that a specific table row contains `expected`.</doc>
+<arguments>
+<arg>omni-search-helpers</arg>
+<arg>7</arg>
+<arg>Telephone Number</arg>
+</arguments>
+<status status="PASS" endtime="20170403 16:31:49.482" starttime="20170403 16:31:49.432"></status>
+</kw>
+<kw name="Table Row Should Contain" library="Selenium2Library">
+<doc>Verifies that a specific table row contains `expected`.</doc>
+<arguments>
+<arg>omni-search-helpers</arg>
+<arg>8</arg>
+<arg>User ID</arg>
+</arguments>
+<status status="PASS" endtime="20170403 16:31:49.530" starttime="20170403 16:31:49.483"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>dock-handle</arg>
+</arguments>
+<msg timestamp="20170403 16:31:49.531" level="INFO">Clicking element 'dock-handle'.</msg>
+<status status="PASS" endtime="20170403 16:31:49.615" starttime="20170403 16:31:49.531"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by locator.</doc>
+<arguments>
+<arg>id=calendar</arg>
+</arguments>
+<msg timestamp="20170403 16:31:49.616" level="INFO">Clicking link 'id=calendar'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170403 16:31:49.942" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170403 16:31:49.942" starttime="20170403 16:31:49.680"></status>
+</kw>
+<msg timestamp="20170403 16:31:49.945" level="FAIL">ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 10.0.14393 x86_64)
+</msg>
+<status status="FAIL" endtime="20170403 16:31:49.945" starttime="20170403 16:31:49.616"></status>
+</kw>
+<status status="FAIL" endtime="20170403 16:31:49.946" critical="yes" starttime="20170403 16:31:40.932">ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 10.0.14393 x86_64)
+</status>
+</test>
+<status status="FAIL" endtime="20170403 16:31:49.948" starttime="20170403 16:31:40.776"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Test" pass="0">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
